@@ -5,15 +5,11 @@
 }
 
 .square {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border: 1px solid black;
   display: inline;
   float: left;
-}
-
-.selected {
-  background-color: black;
 }
 
 .hovered {

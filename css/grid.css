@@ -2,8 +2,6 @@
   position: relative;
   border: 5px solid blue;
   display: inline-block;
-  margin: auto;
-
 }
 
 .square {
@@ -12,4 +10,12 @@
   border: 1px solid black;
   display: inline;
   float: left;
+}
+
+.selected {
+  background-color: black;
+}
+
+.hovered {
+  background-color: grey;
 }

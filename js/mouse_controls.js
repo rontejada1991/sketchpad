@@ -7,8 +7,6 @@ function assignCellHover() {
 
 // Clearing out our grid on click of our clear button
 function cleargrid() {
-  $("div.square").removeClass("hovered");
-
   // Asks / Stores how many cells per side
   var gridSize = prompt("How many squares per side should I make your canvas? (Up to 128)", 64);
 

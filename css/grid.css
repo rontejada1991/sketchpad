@@ -1,17 +1,30 @@
+#clear {
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+}
+
 #container {
-  position: relative;
-  border: 5px solid blue;
+  outline : 5px solid blue;
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.row {
   display: inline-block;
+  margin: 0 auto;
 }
 
 .square {
-  height: 40px;
-  width: 40px;
-  border: 1px solid black;
-  display: inline;
-  float: left;
+  height: 20px;
+  width: 20px;
+  outline: 1px solid black;
 }
 
 .hovered {
-  background-color: grey;
+  background-color: black;
 }
